@@ -1,0 +1,36 @@
+{
+  "name": "chebyshev",
+  "version": "0.0.1",
+  "description": "A JavaScript library for working with Chebyshev polynomials.",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha ./test/chebyshev-spec.js",
+    "generate-docs": "node_modules/.bin/jsdoc -c ./jsdoc.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tab58/chebyshev.git"
+  },
+  "keywords": [
+    "chebyshev",
+    "clenshaw-curtis"
+  ],
+  "author": "Tim Bright",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tab58/chebyshev/issues"
+  },
+  "homepage": "https://github.com/tab58/chebyshev#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "docdash": "^0.4.0",
+    "jsdoc": "^3.5.5",
+    "mocha": "^5.0.0"
+  },
+  "dependencies": {
+    "math-cospi": "^1.0.0"
+  }
+}
